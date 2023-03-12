@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es6",
+        "esModuleInterop":true,
+        "watch": true,
+        "strict": false,
+        "outDir":"./js"
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
