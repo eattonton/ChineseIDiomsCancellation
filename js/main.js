@@ -58,7 +58,7 @@ function CreateChessData() {
 //变量定义
 var rowNumber = 8;
 var colNumber = 8;
-var m_LineStyleWidth = 0.3;
+var m_LineStyleWidth = 0.1;
 var m_CircleStyleWidth = 0.05;
 var m_BlockCellWidth = 0.7;
 var datas = {};
@@ -184,7 +184,7 @@ function WriteText(str1, x, y, hei, scale) {
 
 function DrawLine(x1, y1, x2, y2, wid, scale, strColor) {
     scale = scale || 60;
-    wid = wid || 0.1;
+    wid = wid || 0.04;
     ctx.lineWidth = wid * scale;
     ctx.strokeStyle = strColor || "black";
     //开始一个新的绘制路径
